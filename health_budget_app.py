@@ -144,3 +144,4 @@ if st.button("Prediksi Biaya Kesehatan"):
     except Exception as e:
         st.error("❌ Gagal melakukan prediksi!")
         st.code(str(e))
+        st.write("Scikit-learn version in Streamlit Cloud:", sklearn.__version__)
